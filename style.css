@@ -309,7 +309,9 @@
     }
     .card{
         margin-bottom: 5%;
+        gap: 40px;
     }
+    
     .page-icon{
         display: none;
     }
