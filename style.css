@@ -283,6 +283,22 @@
     
 }
 
+.read-1{
+    color: #64C8FF;
+
+}
+
+.read-2
+{
+    color: #ffcd62;
+}
+
+.read-3
+{
+    color: #8700FF;
+}
+
+
 /* responsive curriculum */
 
 
@@ -437,8 +453,8 @@
 
 
 .btn-view{
-    width: 150px;
-    height: 40px;
+    /* width: 150px;
+    height: 40px; */
     background-color: black;
     color: white;
     border: none;
@@ -471,7 +487,6 @@
 
     .right-story{
         grid-template-columns: repeat(2, 1fr);
-        width: 80vw;
         margin: none;
         justify-content: center;
         align-items: center;
@@ -491,22 +506,29 @@
     .right-btn{
         width: 130px;
         height: 30px;
+        position: relative;
         background-color: #95B226;
-        top: -37%; 
+        top: -25%; 
         left: 8%;
     }
     .right-btn-3{
         width: 130px;
         height: 30px;
+        position: relative;
         background-color: #95B226;
-        top: -45%; 
+        top: -25%; 
         left: 8%;
     }
     .btn-view{
-        position: relative;
-    left: 33%;
+    position: relative;
+    left: 30%;
     top: 5%;
     }
+    .right-story-text{
+        font-size: 0.7em;
+        padding-top: 10%;
+    }
+    
 }
 
 
@@ -563,6 +585,15 @@ footer{
     margin-bottom: 20px;
 }
 
+.midle-div-f
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.right-div-f{
+    text-align: center;
+}
 
 /* footer responsive */
 
@@ -573,6 +604,12 @@ footer{
         gap: 10px;
     }
     footer{
-        height: 60vh;
+        height: 65vh;
     }
+    .midle-div-f,
+    .right-div-f
+    {
+        text-align: start;
+    }
+    
 }
