@@ -25,12 +25,20 @@
     height: 50px;
     border-radius: 12px;
     border: none;
+    transition: all 0.4s ease-in;
+}
+
+.primary-btn:hover {
+    color: #fff;
+    background-color: #547c7a;
 }
 
 .btn-color-1{
     background-color: rgba(254, 163, 1, 1);
     color: #fff;
 }
+
+
 
 /* nav style */
 
@@ -48,6 +56,11 @@
     width: 80%;
     margin: auto;
     padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container{
+    width: 80%;
+    margin: auto;
 }
 
 .nav-item{
@@ -105,5 +118,82 @@
     }
     .nav-item-container{
         padding: 20px 20px;
+        width: 90%;
+        margin: auto;
     }
   }
+
+/* BANNER SECTION */
+
+.banner-item{
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+}
+.Empowering{
+    color: rgba(254, 163, 1, 1);
+}
+.vision{
+    color: rgba(1, 172, 253, 1);
+}
+.banner-left{
+    /* width: 50%; */
+}
+.banner-left>h2{
+    font-size: 5em;
+    font-weight: 700;
+}
+.banner-left>p{
+    font-size: 2em;
+    font-weight: 400;
+    color: rgba(17, 17, 17, 1);
+    margin-top: 2.5%;
+}
+.banner-right>img{
+    justify-content: flex-end;
+    align-items: center;
+}
+.banner-btn{
+    background-color: rgba(17, 17, 17, 1);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    margin-top: 2.5%;
+}
+
+/* responsive part hero part banner part */
+
+
+@media (max-width: 576px){
+    .banner-item{
+        flex-direction: column-reverse;
+        gap: 5%;
+        width: 80vw;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center ;
+    }
+    .banner-item>.banner-right>img{
+        width: 80vw;
+        margin: auto;
+    } 
+    .banner-right{
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-left>p{
+        font-size: 1.2em;
+    }
+    .banner-left>h2{
+        font-size: 2em;
+    }
+}
+
+/* curiculam part */
+
+.curriculum{
+    background-image: url(assets/bg.png);
+    width: 100%;
+    height: auto;
+}
